@@ -140,6 +140,7 @@ services:
   plan: free
 databases:
 - name: mastodon-db
+  plan: free
   databaseName: private
   ipAllowList: []
 envVarGroups:
